@@ -8,7 +8,7 @@ Simple to use #meme generator in retro style.
 
 ## Used technologies / Frameworks
 
-I use the following technologies / frameworks in my project:
+I used the following technologies / frameworks in my project:
 
 - HTML
 - SASS
@@ -18,7 +18,7 @@ I chose **SASS** because it allows me to create style sheets faster and it also 
 
 ## Used 3rd Party Libraries
 
-I use the following 3rd party libraries in my project:
+I used the following 3rd party libraries in my project:
 
 | Name                                | Reason                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

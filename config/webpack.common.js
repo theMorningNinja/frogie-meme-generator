@@ -4,6 +4,9 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 const SitemapPlugin = require('sitemap-webpack-plugin').default;
 
+/**
+ * Paths for sitemap plugin
+ */
 const paths = [
   {
     path: './views/index.html',
@@ -13,8 +16,10 @@ const paths = [
   },
 ];
 
+// Export settings
 module.exports = {
   entry: {
+    // main entry
     main: ['./src/assets/js/index.js', './src/assets/sass/main.scss'],
   },
 
@@ -89,12 +94,14 @@ module.exports = {
   },
 
   plugins: [
+    // Plugin for generating html template
     new HtmlWebpackPlugin({
       template: './src/views/index.html',
       filename: '/index.html',
       title: 'Frogie - meme generator',
       chunks: ['main'],
 
+      // meta tags
       meta: {
         charset: {
           charset: 'UTF-8',
@@ -154,6 +161,7 @@ module.exports = {
           property: 'og:title',
           content: 'Frogie - meme generator',
         },
+        //! no og:img
         'og:description': {
           property: 'og:description',
           content:
@@ -201,7 +209,6 @@ module.exports = {
     }),
 
     new SitemapPlugin({
-      // change later to https
       base: 'https://frogie-meme-generator.netlify.app/',
       paths,
       options: {
