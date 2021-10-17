@@ -1,0 +1,24 @@
+//* ----------- Large Mobiles - Screen: 576 ----------- */
+// * Portrait and Landscape
+@media only screen and (max-device-width: 576px) {
+  input[type='range'] {
+    width: 100%;
+  }
+  input[type='range']::-webkit-slider-runnable-track {
+    width: 100%;
+  }
+  input[type='range']::-moz-range-track {
+    width: 100%;
+  }
+  input[type='range']::-ms-track {
+    width: 100%;
+  }
+
+  .select {
+    width: 100%;
+
+    .select__option-wrapper {
+      width: 100%;
+    }
+  }
+}

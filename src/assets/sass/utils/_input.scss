@@ -1,0 +1,121 @@
+//* Img - input
+input[type='file'] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+//* Size input
+input[type='range'] {
+  width: 170px;
+  margin: 14.5px 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+input[type='range']:focus {
+  outline: none;
+}
+input[type='range']::-webkit-slider-runnable-track {
+  background: #aeadad;
+  border: 0;
+  width: 170px;
+  height: 3px;
+  cursor: pointer;
+}
+input[type='range']::-webkit-slider-thumb {
+  margin-top: -8.5px;
+  width: 22px;
+  height: 22px;
+  background: #ffffff;
+  border: 3.3px solid #000000;
+  border-radius: 50px;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+input[type='range']:focus::-webkit-slider-runnable-track {
+  background: #b1b0b0;
+}
+input[type='range']::-moz-range-track {
+  background: #aeadad;
+  border: 0;
+  width: 170px;
+  height: 3px;
+  cursor: pointer;
+}
+input[type='range']::-moz-range-thumb {
+  width: 22px;
+  height: 22px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 50px;
+  cursor: pointer;
+}
+input[type='range']::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  border-width: 15.3px 0;
+  color: transparent;
+  width: 170px;
+  height: 3px;
+  cursor: pointer;
+}
+input[type='range']::-ms-fill-lower {
+  background: #abaaaa;
+  border: 0;
+}
+input[type='range']::-ms-fill-upper {
+  background: #aeadad;
+  border: 0;
+}
+input[type='range']::-ms-thumb {
+  width: 22px;
+  height: 22px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 0px;
+  /*Needed to keep the Edge thumb centred*/
+}
+input[type='range']:focus::-ms-fill-lower {
+  background: #aeadad;
+}
+input[type='range']:focus::-ms-fill-upper {
+  background: #b1b0b0;
+}
+
+//* Selection - options input
+.select {
+  position: relative;
+  display: inline-block;
+  width: 170px;
+
+  .select__option-wrapper {
+    display: inline-block;
+    @include text-style($light-dark-color, 14px, 500, 0, normal);
+    width: 170px;
+    cursor: pointer;
+    height: 38px;
+    outline: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid $dark-color;
+    border-radius: 0px;
+    background: $light-grey-color;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-family: inherit;
+  }
+
+  .select__arrow {
+    position: absolute;
+    top: 13px;
+    right: 5px;
+    pointer-events: none;
+    color: $light-dark-color;
+    font-size: 12px;
+  }
+}

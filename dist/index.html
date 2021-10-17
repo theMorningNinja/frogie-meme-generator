@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Frogie - meme generator</title>
+  <!-- <link rel="canonical" href="https://frogiememe.com"> -->
+
+  <!-- icons -->
+  <script src="https://kit.fontawesome.com/5a78945050.js" crossorigin="anonymous"></script>
+
+
+<meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1.0"><meta name="description" content="Frogie meme generator - simple to use #mem generator in retro style."><meta name="keywords" content="Meme generator, meme, frogie, pepe memes"><meta name="robots" content="index,follow"><meta name="googlebot" content="index,follow"><meta name="google" content="notranslate"><meta property="type" content="website"><meta name="format-detection" content="telephone=no"><meta name="theme_color" content="#ffd100"><meta property="og:type" content="website"><meta property="og:title" content="Frogie - meme generator"><meta property="og:description" content="Frogie meme generator - simple to use #mem generator in retro style."><meta property="site_name" content="Frogie - meme generator"><meta property="og:url" href="https://frogiememe.com"><meta property="og:locale" content="en_US"><meta article="author" content="Mieszko Paluchowski"><link rel="icon" href="/assets/favicons/favicon.png"><script defer src="/./assets/js/vendors-node_modules_gsap_index_js5be129009f2542721fc2.js"></script><script defer src="/./assets/js/main6a4f114529aeb3df6ec5.js"></script><link href="/./assets/css/main4d2dde268214ab5bafbf.css" rel="stylesheet"></head>
+
+<body>
+  <div class="preloader">
+    <div class="preloader-item"></div>
+    <div class="preloader-overlay"></div>
+  </div>
+
+  <!-- Wrapper of all elements -->
+  <div id="content-wrapper">
+
+    <!-- Header -->
+    <header id="header" class="my-3 item__intro">
+      <div class="header__wrapper px-3">
+        <a href="#" class="logo-link">
+          <div class="logo"></div>
+        </a>
+        <div class="header__wrapper-h">
+          <div class="title-md">
+            Simple to use #meme generator in retro style.
+          </div>
+        </div>
+        <div class="header__wrapper-item">
+          <div class="pix-heart px-3"></div>
+          <div class="pix-heart px-3"></div>
+          <div class="pix-heart px-3"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Meme container -->
+    <section id="hero" class="my-3">
+      <div class="hero__wrapper">
+        <div class="col__content item__intro">
+
+          <!-- IMG - button -->
+          <div class="img__input-wrapper">
+            <label for="img__input" class="img__input-select">
+              <h1>
+                UPLOAD IMAGE
+              </h1>
+            </label>
+            <input type="file" id="img__input" class="img__input-item" accept="image/*">
+          </div>
+          <div class="text-style__wrapper">
+            <div class="text__wrapper">
+
+              <!-- TOP - heading -->
+              <div class="text-item">
+                <div class="title">
+                  <h3>
+                    TOP - HEADING
+                  </h3>
+                  <i class="fas fa-chevron-up"></i>
+                </div>
+
+                <!-- TOP - text input -->
+                <input id="text__top" class="text-input text-input-top" data-position="top" type="text"
+                  placeholder="YOUR TEXT" value="YOUR TEXT">
+              </div>
+
+            </div>
+            <div class="text-style__wrapper">
+              <div class="text__wrapper">
+
+                <!-- BOTTOM - heading -->
+                <div class="text-item">
+                  <div class="title">
+                    <h3>
+                      BOTTOM - HEADING
+                    </h3>
+                    <i class="fas fa-chevron-down"></i>
+                  </div>
+
+                  <!-- BOTTOM - text input -->
+                  <input id="text__bottom" class="text-input text-input-bottom" data-position="bottom" type="text"
+                    placeholder="YOUR TEXT" value="YOUR TEXT">
+                </div>
+              </div>
+
+              <!-- TEXT COLOR - input -->
+              <div class="option__wrapper">
+                <div class="option__item-wrapper">
+                  <h3>
+                    Text Color
+                  </h3>
+                  <input id="color__text-input" class="color-item-text" autocomplete="off" placeholder="#CC59D2">
+                </div>
+
+                <!-- STROKE - input -->
+                <div class="option__item-wrapper">
+                  <h3>
+                    Stroke Color
+                  </h3>
+                  <input id="color__stroke-input" class="color-item-stroke" autocomplete="off" placeholder="#6EA4BF">
+                </div>
+
+                <!-- FONT - input -->
+                <div class="option__item-wrapper">
+                  <h3>
+                    Font
+                  </h3>
+                  <div class="select">
+                    <select id="font-option" class="select__option-wrapper">
+                      <option class="option-item-bottom" value="Arial">Arial</option>
+                      <option class="option-item-bottom" value="MarkerFelt-Thin, Comic Sans MS">Comic Sans</option>
+                      <option class="option-item-bottom" value="Pacifico">Pacifico</option>
+                    </select>
+                    <i class="fas fa-chevron-down select__arrow"></i>
+                  </div>
+                </div>
+
+                <!-- Size - input -->
+                <div class="option__item-wrapper">
+                  <h3>
+                    Font Size
+                  </h3>
+                  <input id="text__size-input" class="text__size" type="range" min="10" max="60" value="" step="2">
+                </div>
+
+              </div>
+            </div>
+
+            <!-- BTN - download -->
+            <div id="export__btn" class="btn-dark">
+              <i class="fas fa-long-arrow-alt-down"></i>
+              <h1>
+                DOWNLOAD
+              </h1>
+            </div>
+          </div>
+
+        </div>
+        <div class="col__meme-wrapper">
+          <div class="col__img item__intro">
+
+            <!-- Canvas -->
+            <div class="canvas__wrapper">
+            </div>
+
+          </div>
+          <div class="desc-wrapper item__intro">
+            <div class="desc">
+              <div class="list-wrapper">
+                <ul>
+                  <h3>Recomended Image Size:</h3>
+                  <li>500x500 - px</li>
+                </ul>
+                <ul>
+                  <h3>Feel free to tag Us in your work:</h3>
+                  <li>#frogiememe</li>
+                  <li>@frogiememe</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer" class="my-3 item__intro">
+      <div class="col">
+        <a href="https://mspaluchowski.com/" target="_blank" rel="noopener noreferrer" class="title-sm pr-3">
+          made by - Mieszko Paluchowski
+        </a>
+        <div class="line-overlay"></div>
+        <div class="title-sm pl-3">
+          © 2021
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+//* ----------- Large tablets - Screen: 1024 ----------- */
+// * Portrait and Landscape
+@media only screen and (max-device-width: 1024px) {
+  #content-wrapper {
+    padding: 0 20px;
+  }
+
+  .title-md {
+    font-size: 14px;
+    padding: 0 20px;
+  }
+}
+
+//* ----------- Large Mobiles - Screen: 576 ----------- */
+// * Portrait and Landscape
+@media only screen and (max-device-width: 576px) {
+  .title-md {
+    width: 200px;
+  }
+}

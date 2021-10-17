@@ -1,0 +1,20 @@
+//* ----------- Large tablets - Screen: 1024 ----------- */
+// * Portrait and Landscape
+@media only screen and (max-device-width: 1024px) {
+  #header {
+    .header__wrapper {
+      justify-content: unset;
+
+      .logo-link {
+        .logo {
+          width: 40px;
+          height: 40px;
+        }
+      }
+
+      .header__wrapper-item {
+        display: none;
+      }
+    }
+  }
+}

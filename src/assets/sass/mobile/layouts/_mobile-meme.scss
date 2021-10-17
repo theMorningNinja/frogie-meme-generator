@@ -1,0 +1,52 @@
+//* ----------- Large tablets - Screen: 1024 ----------- */
+// * Portrait and Landscape
+@media only screen and (max-device-width: 1024px) {
+  #hero {
+    .hero__wrapper {
+      .col__meme-wrapper {
+        .col__img {
+          .canvas__wrapper {
+            width: 320px;
+            height: 320px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//* ----------- Medium tablets - Screen: 768 ----------- */
+// * Portrait and Landscape
+@media only screen and (max-device-width: 768px) {
+  #hero {
+    .hero__wrapper {
+      flex-direction: column-reverse;
+
+      .col__content {
+        width: 100%;
+        margin: 15px 0 0 0;
+      }
+    }
+  }
+
+  //* ----------- Large Mobiles - Screen: 576 ----------- */
+  // * Portrait and Landscape
+  @media only screen and (max-device-width: 576px) {
+    #hero {
+      .hero__wrapper {
+        .col__content {
+          .option__wrapper {
+            .option__item-wrapper {
+              flex-direction: column;
+
+              .color-item-text,
+              .color-item-stroke {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
