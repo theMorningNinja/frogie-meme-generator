@@ -66,9 +66,18 @@ h3 {
 #content-wrapper {
   overflow: hidden;
   display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
   padding: 0 9vw;
+
+  .sections-wrapper {
+    width: 100%;
+    height: 100%;
+    max-width: 1500px;
+  }
 }
 
 .output-container {

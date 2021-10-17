@@ -19,170 +19,171 @@
 
   <!-- Wrapper of all elements -->
   <div id="content-wrapper">
-
-    <!-- Header -->
-    <header id="header" class="my-3 item__intro">
-      <div class="header__wrapper px-3">
-        <a href="#" class="logo-link">
-          <div class="logo"></div>
-        </a>
-        <div class="header__wrapper-h">
-          <div class="title-md">
-            Simple to use #meme generator in retro style.
+    <div class="sections-wrapper">
+      <!-- Header -->
+      <header id="header" class="my-3 item__intro">
+        <div class="header__wrapper px-3">
+          <a href="#" class="logo-link">
+            <div class="logo"></div>
+          </a>
+          <div class="header__wrapper-h">
+            <div class="title-md">
+              Simple to use #meme generator in retro style.
+            </div>
+          </div>
+          <div class="header__wrapper-item">
+            <div class="pix-heart px-3"></div>
+            <div class="pix-heart px-3"></div>
+            <div class="pix-heart px-3"></div>
           </div>
         </div>
-        <div class="header__wrapper-item">
-          <div class="pix-heart px-3"></div>
-          <div class="pix-heart px-3"></div>
-          <div class="pix-heart px-3"></div>
-        </div>
-      </div>
-    </header>
+      </header>
 
-    <!-- Meme container -->
-    <section id="hero" class="my-3">
-      <div class="hero__wrapper">
-        <div class="col__content item__intro">
+      <!-- Meme container -->
+      <section id="hero" class="my-3">
+        <div class="hero__wrapper">
+          <div class="col__content item__intro">
 
-          <!-- IMG - button -->
-          <div class="img__input-wrapper">
-            <label for="img__input" class="img__input-select">
-              <h1>
-                UPLOAD IMAGE
-              </h1>
-            </label>
-            <input type="file" id="img__input" class="img__input-item" accept="image/*">
-          </div>
-          <div class="text-style__wrapper">
-            <div class="text__wrapper">
-
-              <!-- TOP - heading -->
-              <div class="text-item">
-                <div class="title">
-                  <h3>
-                    TOP - HEADING
-                  </h3>
-                  <i class="fas fa-chevron-up"></i>
-                </div>
-
-                <!-- TOP - text input -->
-                <input id="text__top" class="text-input text-input-top" data-position="top" type="text"
-                  placeholder="YOUR TEXT" value="YOUR TEXT">
-              </div>
-
+            <!-- IMG - button -->
+            <div class="img__input-wrapper">
+              <label for="img__input" class="img__input-select">
+                <h1>
+                  UPLOAD IMAGE
+                </h1>
+              </label>
+              <input type="file" id="img__input" class="img__input-item" accept="image/*">
             </div>
             <div class="text-style__wrapper">
               <div class="text__wrapper">
 
-                <!-- BOTTOM - heading -->
+                <!-- TOP - heading -->
                 <div class="text-item">
                   <div class="title">
                     <h3>
-                      BOTTOM - HEADING
+                      TOP - HEADING
                     </h3>
-                    <i class="fas fa-chevron-down"></i>
+                    <i class="fas fa-chevron-up"></i>
                   </div>
 
-                  <!-- BOTTOM - text input -->
-                  <input id="text__bottom" class="text-input text-input-bottom" data-position="bottom" type="text"
+                  <!-- TOP - text input -->
+                  <input id="text__top" class="text-input text-input-top" data-position="top" type="text"
                     placeholder="YOUR TEXT" value="YOUR TEXT">
                 </div>
+
               </div>
+              <div class="text-style__wrapper">
+                <div class="text__wrapper">
 
-              <!-- TEXT COLOR - input -->
-              <div class="option__wrapper">
-                <div class="option__item-wrapper">
-                  <h3>
-                    Text Color
-                  </h3>
-                  <input id="color__text-input" class="color-item-text" autocomplete="off" placeholder="#CC59D2">
-                </div>
+                  <!-- BOTTOM - heading -->
+                  <div class="text-item">
+                    <div class="title">
+                      <h3>
+                        BOTTOM - HEADING
+                      </h3>
+                      <i class="fas fa-chevron-down"></i>
+                    </div>
 
-                <!-- STROKE - input -->
-                <div class="option__item-wrapper">
-                  <h3>
-                    Stroke Color
-                  </h3>
-                  <input id="color__stroke-input" class="color-item-stroke" autocomplete="off" placeholder="#6EA4BF">
-                </div>
-
-                <!-- FONT - input -->
-                <div class="option__item-wrapper">
-                  <h3>
-                    Font
-                  </h3>
-                  <div class="select">
-                    <select id="font-option" class="select__option-wrapper">
-                      <option class="option-item-bottom" value="Arial">Arial</option>
-                      <option class="option-item-bottom" value="MarkerFelt-Thin, Comic Sans MS">Comic Sans</option>
-                      <option class="option-item-bottom" value="Pacifico">Pacifico</option>
-                    </select>
-                    <i class="fas fa-chevron-down select__arrow"></i>
+                    <!-- BOTTOM - text input -->
+                    <input id="text__bottom" class="text-input text-input-bottom" data-position="bottom" type="text"
+                      placeholder="YOUR TEXT" value="YOUR TEXT">
                   </div>
                 </div>
 
-                <!-- Size - input -->
-                <div class="option__item-wrapper">
-                  <h3>
-                    Font Size
-                  </h3>
-                  <input id="text__size-input" class="text__size" type="range" min="10" max="60" value="" step="2">
+                <!-- TEXT COLOR - input -->
+                <div class="option__wrapper">
+                  <div class="option__item-wrapper">
+                    <h3>
+                      Text Color
+                    </h3>
+                    <input id="color__text-input" class="color-item-text" autocomplete="off" placeholder="#CC59D2">
+                  </div>
+
+                  <!-- STROKE - input -->
+                  <div class="option__item-wrapper">
+                    <h3>
+                      Stroke Color
+                    </h3>
+                    <input id="color__stroke-input" class="color-item-stroke" autocomplete="off" placeholder="#6EA4BF">
+                  </div>
+
+                  <!-- FONT - input -->
+                  <div class="option__item-wrapper">
+                    <h3>
+                      Font
+                    </h3>
+                    <div class="select">
+                      <select id="font-option" class="select__option-wrapper">
+                        <option class="option-item-bottom" value="Arial">Arial</option>
+                        <option class="option-item-bottom" value="MarkerFelt-Thin, Comic Sans MS">Comic Sans</option>
+                        <option class="option-item-bottom" value="Pacifico">Pacifico</option>
+                      </select>
+                      <i class="fas fa-chevron-down select__arrow"></i>
+                    </div>
+                  </div>
+
+                  <!-- Size - input -->
+                  <div class="option__item-wrapper">
+                    <h3>
+                      Font Size
+                    </h3>
+                    <input id="text__size-input" class="text__size" type="range" min="10" max="60" value="" step="2">
+                  </div>
+
                 </div>
+              </div>
 
+              <!-- BTN - download -->
+              <div id="export__btn" class="btn-dark">
+                <i class="fas fa-long-arrow-alt-down"></i>
+                <h1>
+                  DOWNLOAD
+                </h1>
               </div>
             </div>
 
-            <!-- BTN - download -->
-            <div id="export__btn" class="btn-dark">
-              <i class="fas fa-long-arrow-alt-down"></i>
-              <h1>
-                DOWNLOAD
-              </h1>
-            </div>
           </div>
+          <div class="col__meme-wrapper">
+            <div class="col__img item__intro">
 
-        </div>
-        <div class="col__meme-wrapper">
-          <div class="col__img item__intro">
+              <!-- Canvas -->
+              <div class="canvas__wrapper">
+              </div>
 
-            <!-- Canvas -->
-            <div class="canvas__wrapper">
             </div>
-
-          </div>
-          <div class="desc-wrapper item__intro">
-            <div class="desc">
-              <div class="list-wrapper">
-                <ul>
-                  <h3>Recomended Image Size:</h3>
-                  <li>500x500 - px</li>
-                </ul>
-                <ul>
-                  <h3>
-                    If the button does not work,
-                    <br>
-                    follow these steps
-                  </h3>
-                  <li></li>
-                  <li>@frogiememe</li>
-                </ul>
+            <div class="desc-wrapper item__intro">
+              <div class="desc">
+                <div class="list-wrapper">
+                  <ul>
+                    <h3>Recomended Image Size:</h3>
+                    <li>500x500 - px</li>
+                  </ul>
+                  <ul>
+                    <h3>
+                      If the button does not work,
+                      <br>
+                      follow these steps
+                    </h3>
+                    <li></li>
+                    <li>@frogiememe</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <footer id="footer" class="my-3 item__intro">
-      <div class="col">
-        <a href="https://mspaluchowski.com/" target="_blank" rel="noopener noreferrer" class="title-sm pr-3">
-          made by - Mieszko Paluchowski
-        </a>
-        <div class="line-overlay"></div>
-        <div class="title-sm pl-3">
-          © 2021
+      </section>
+      <footer id="footer" class="my-3 item__intro">
+        <div class="col">
+          <a href="https://mspaluchowski.com/" target="_blank" rel="noopener noreferrer" class="title-sm pr-3">
+            made by - Mieszko Paluchowski
+          </a>
+          <div class="line-overlay"></div>
+          <div class="title-sm pl-3">
+            © 2021
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </div>
 </body>
 

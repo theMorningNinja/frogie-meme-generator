@@ -32,7 +32,7 @@ const preloader = (gif, overlay, content, itemsIntro) => {
     .set(
       content,
       {
-        display: 'block',
+        display: 'flex',
       },
       1.2
     )
