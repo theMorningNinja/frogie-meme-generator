@@ -1,5 +1,7 @@
 # Frogie meme generator :frog:
 
+Simple to use #meme generator.
+
 ---
 
 # Task Result
@@ -21,7 +23,7 @@ I use the following 3rd party libraries in my project:
 | Name                                | Reason                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [Webpack](https://webpack.js.org/)  | For bundling all important assets. Creating clean scalable project structure.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| > Webpack - plugins                 | <table> <thead> <tr>Name</th> </tr> </thead> <tbody> <tr> <td>webpack-cli</td> </tr> <tr> <td>webpack-dev-server</td> </tr> <tr> <td>webpack-merge</td> </tr> <tr> <td>css-loader</td> </tr> <tr> <td>mini-css-extract-plugin</td> </tr> <tr> <td>sass-loader</td> </tr> <tr> <td>style-loader</td> </tr> <tr> <td>favicons & favicons-webpack-plugin</td> </tr> <tr> <td>file-loader</td> </tr> <tr> <td>html-webpack-plugin</td> </tr> <tr> <td>postcss</td> </tr> <tr> <td>rimraf</td> </tr> <tr> <td>sitemap-webpack-plugin</td> </tr> </tbody> </table> |
+| Webpack - plugins                   | <table> <thead> <tr>Name</th> </tr> </thead> <tbody> <tr> <td>webpack-cli</td> </tr> <tr> <td>webpack-dev-server</td> </tr> <tr> <td>webpack-merge</td> </tr> <tr> <td>css-loader</td> </tr> <tr> <td>mini-css-extract-plugin</td> </tr> <tr> <td>sass-loader</td> </tr> <tr> <td>style-loader</td> </tr> <tr> <td>favicons & favicons-webpack-plugin</td> </tr> <tr> <td>file-loader</td> </tr> <tr> <td>html-webpack-plugin</td> </tr> <tr> <td>postcss</td> </tr> <tr> <td>rimraf</td> </tr> <tr> <td>sitemap-webpack-plugin</td> </tr> </tbody> </table> |
 | [GSAP](https://greensock.com/gsap/) | For animating CSS properties and DOM elements.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | [BABEL](https://babeljs.io/)        | For converting new language features to old.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [huebee](https://huebee.buzz/)      | Simple to use color picker.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
@@ -36,13 +38,13 @@ The following components must be installed locally:
 
 To run the project locally, enter the following in the command line / bash:
 
-> note: project is build for production
+> note: default project is build for production.
 
 ```console
 $ git clone <linktorepository>
 $ cd <repositoryname>
 $ npm install
-$ npm run start
+$ npm run start // The project will open locally automaticlly in the browser at local-ipv4.
 ```
 
 ---
@@ -52,11 +54,11 @@ To run the project in development environment locally, enter the following in th
 ```console
 $ ...
 $ npm build-dev
-$ npm run start-dev
+$ npm run start-dev // The project will open locally automaticlly in the browser at local-ipv4.
 ```
 
 ---
 
-for more scripts check the project file: **package.json**
+For more scripts check the project file: **package.json**
 
 ---

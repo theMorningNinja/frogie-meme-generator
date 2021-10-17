@@ -1,0 +1,13 @@
+/*!
+ * Huebee v2.1.1
+ * 1-click color picker
+ * MIT license
+ * https://huebee.buzz
+ * Copyright 2020 Metafizzy
+ */
+
+/*!
+ * Unipointer v2.3.0
+ * base class for doing one thing with pointer event
+ * MIT license
+ */
