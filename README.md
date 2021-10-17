@@ -38,10 +38,10 @@ The following components must be installed locally:
 
 To run the project locally, enter the following in the command line / bash:
 
-> Note:
-> Default project is build for production.
-> Running these commands will open the project automatically.
-> Project will open at <!--- local-ipv4. --->
+> Note:<br/>
+> Default project is build for production.<br/>
+> Running these commands will open the project automatically.<br/>
+> Project will open at local-ipv4.
 
 ```console
 $ git clone <linktorepository>
