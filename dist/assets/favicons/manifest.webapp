@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "name": "Frogie - meme generator",
-  "description": "Frogie meme generator - simple to use #mem generator in retro style.",
+  "description": "Frogie meme generator - simple to use #meme generator in retro style.",
   "icons": {
     "60": "firefox_app_60x60.png",
     "128": "firefox_app_128x128.png",

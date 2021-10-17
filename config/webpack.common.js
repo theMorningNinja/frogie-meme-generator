@@ -7,7 +7,7 @@ const SitemapPlugin = require('sitemap-webpack-plugin').default;
 const paths = [
   {
     path: './views/index.html',
-    lastmod: '2021-10-16',
+    lastmod: '2021-10-17',
     prority: 0.8,
     changefreq: 'monthly',
   },
@@ -110,7 +110,7 @@ module.exports = {
         description: {
           name: 'description',
           content:
-            'Frogie meme generator - simple to use #mem generator in retro style.',
+            'Frogie meme generator - simple to use #meme generator in retro style.',
         },
         keyword: {
           name: 'keywords',
@@ -157,13 +157,16 @@ module.exports = {
         'og:description': {
           property: 'og:description',
           content:
-            'Frogie meme generator - simple to use #mem generator in retro style.',
+            'Frogie meme generator - simple to use #meme generator in retro style.',
         },
         'og:site_name': {
           property: 'site_name',
           content: 'Frogie - meme generator',
         },
-        'og:url': { property: 'og:url', href: 'https://frogiememe.com' },
+        'og:url': {
+          property: 'og:url',
+          href: 'https://frogie-meme-generator.netlify.app/',
+        },
         'og:locale': { property: 'og:locale', content: 'en_US' },
 
         author: {
@@ -186,7 +189,7 @@ module.exports = {
       favicons: {
         appName: 'Frogie - meme generator',
         appDescription:
-          'Frogie meme generator - simple to use #mem generator in retro style.',
+          'Frogie meme generator - simple to use #meme generator in retro style.',
         appShortName: 'frogiememe',
         start_url: '/',
         scope: '/',
@@ -199,7 +202,7 @@ module.exports = {
 
     new SitemapPlugin({
       // change later to https
-      base: 'https://frogiememe.com',
+      base: 'https://frogie-meme-generator.netlify.app/',
       paths,
       options: {
         filename: 'sitemap.xml',

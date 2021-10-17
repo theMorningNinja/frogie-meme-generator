@@ -1,7 +1,7 @@
 {
   "name": "Frogie - meme generator",
   "short_name": "frogiememe",
-  "description": "Frogie meme generator - simple to use #mem generator in retro style.",
+  "description": "Frogie meme generator - simple to use #meme generator in retro style.",
   "dir": "auto",
   "lang": "en-US",
   "display": "standalone",
