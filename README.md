@@ -11,7 +11,7 @@ Simple to use #meme generator in retro style.
 I used the following technologies / frameworks in my project:
 
 - HTML
-- SASS
+- SCSS / SASS
 - JavaScript / Vanilla
 
 I chose **SASS** because it allows me to create style sheets faster and it also helps to keep files organised.
