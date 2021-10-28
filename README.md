@@ -4,8 +4,6 @@ Simple to use #meme generator in retro style.
 
 ---
 
-# Task Result
-
 ## Used technologies / Frameworks
 
 I used the following technologies / frameworks in my project:
